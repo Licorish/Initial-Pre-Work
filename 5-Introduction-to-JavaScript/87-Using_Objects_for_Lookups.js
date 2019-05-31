@@ -1,0 +1,2 @@
+// In this lesson I learned how to use objects to for lookups by using bracket notation or dot notation.
+{"index.js":"// Setup\nfunction phoneticLookup(val) {\n  var result = \"\";\n\n  // Only change code below this line\n  var lookup = {\n    \"alpha\": \"Adams\",\n    \"bravo\": \"Boston\",\n    \"charlie\":\"Chicago\",\n    \"delta\":\"Denver\",\n    \"echo\":\"Easy\",\n    \"foxtrot\":\"Frank\"\n  };\n  \nresult = lookup[val];\n\n  // Only change code above this line\n  return result;\n}\n\n// Change this value to test\nphoneticLookup(\"charlie\");"}

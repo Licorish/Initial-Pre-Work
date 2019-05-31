@@ -1,0 +1,2 @@
+/* In this lesson I learned how to use destructive assignment with the rest operator to reassign array elements. */
+{"index.js":"  const source = [1,2,3,4,5,6,7,8,9,10];\nfunction removeFirstTwo(list) {\n  \"use strict\";\n  // change code below this line\n  const [a,b, ...arr] = [1,2,3,4,5,6,7,8,9,10]; // change this\n  // change code above this line\n  return arr;\n}\nconst arr = removeFirstTwo(source);\nconsole.log(arr); // should be [3,4,5,6,7,8,9,10]\nconsole.log(source); // should be [1,2,3,4,5,6,7,8,9,10];"}

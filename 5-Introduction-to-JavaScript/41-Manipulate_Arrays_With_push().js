@@ -1,0 +1,2 @@
+// In this lession I learned how to  manipulate arrays with push(). arr.push(value);
+{"index.js":"// Example\nvar ourArray = [\"Stimpson\", \"J\", \"cat\"];\nourArray.push([\"happy\", \"joy\"]); \n// ourArray now equals [\"Stimpson\", \"J\", \"cat\", [\"happy\", \"joy\"]]\n\n// Setup\nvar myArray = [[\"John\", 23], [\"cat\", 2]];\n\n// Only change code below this line.\nmyArray.push([\"dog\",3])\n"}

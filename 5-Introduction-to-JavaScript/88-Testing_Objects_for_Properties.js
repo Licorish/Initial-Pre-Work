@@ -1,0 +1,2 @@
+// In this lesson I learned how to use .hasOwnProperty(propname) to test objectgs for properties. This returns true or false.
+{"index.js":"// Setup\nvar myObj = {\n  gift: \"pony\",\n  pet: \"kitten\",\n  bed: \"sleigh\"\n};\n\nfunction checkObj(checkProp) {\n  // Your Code Here\n  if (myObj.hasOwnProperty(checkProp) == true){\n    return myObj[checkProp]\n  }\n  else{\n    return \"Not Found\";\n  }\n}\n\n// Test your code by modifying these values\ncheckObj(\"gift\");"}

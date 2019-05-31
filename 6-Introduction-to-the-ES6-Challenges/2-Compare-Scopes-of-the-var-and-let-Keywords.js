@@ -1,0 +1,2 @@
+/* In this lesson I learned about the scopes of var and let keywords and how they worked. I learned that  declaring a var variable delcares it globally, the let keyword when declared inside a block statement or expression is limited to this block, statement or expression.*/
+{"index.js":"function checkScope() {\n\"use strict\";\n  let i = \"function scope\";\n  if (true) {\n    let i = \"block scope\";\n    console.log(\"Block scope i is: \", i);\n  }\n  console.log(\"Function scope i is: \", i);\n  return i;\n}"}

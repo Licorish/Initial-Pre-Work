@@ -1,0 +1,2 @@
+// In this lession I learned how to  return a value from a function. Use return.
+{"index.js":"// Example\nfunction minusSeven(num) {\n  return num - 7;\n}\n\n// Only change code below this line\nfunction timesFive(numb){\nreturn numb*5;\n}\n\n\nconsole.log(minusSeven(10));"}{"index.js":"// Example\nfunction minusSeven(num) {\n  return num - 7;\n}\n\n// Only change code below this line\nfunction timesFive(numb){\nreturn numb*5;\n}\n\n\nconsole.log(minusSeven(10));"}

@@ -1,0 +1,2 @@
+// In this lesson I learned how to do use a do while loop where the while statement will be used at the bottom instead of the top of the statement.
+{"index.js":"// Setup\nvar myArray = [];\nvar i = 10;\n\n// Only change code below this line.\n\ndo {\n  myArray.push(i);\n  i++;\n}while (i < 5);"}

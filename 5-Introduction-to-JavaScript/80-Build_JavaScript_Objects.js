@@ -1,0 +1,2 @@
+// In this lesson I learned what javascript objects are, how to build them using a variable, and how they are used to store data in a structured way.
+{"index.js":"// Example\nvar ourDog = {\n  \"name\": \"Camper\",\n  \"legs\": 4,\n  \"tails\": 1,\n  \"friends\": [\"everything!\"]\n};\n\n// Only change code below this line.\n\nvar myDog = {\n  \"name\": \"Rico\",\n  \"legs\": 5,\n  \"tails\": 4,\n  \"friends\":[\"fido\",\"chapayna\",\"Mimi\"]\n\n  \n  \n  \n  \n};"}

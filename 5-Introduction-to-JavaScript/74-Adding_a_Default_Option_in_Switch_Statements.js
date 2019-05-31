@@ -1,0 +1,2 @@
+//In this lesson I learned that you can add a default statement if the switch does not have paramaters for the var.
+{"index.js":"function switchOfStuff(val) {\n  var answer = \"\";\n  // Only change code below this line\n  switch(val){\n    case \"a\":\n    answer = \"apple\";\n    break;\n    case \"b\":\n    answer = \"bird\";\n    break;\n    case \"c\":\n    answer = \"cat\";\n    break;\n    default:\n    answer = \"stuff\";\n    break;\n  }\n  \n  \n  // Only change code above this line  \n  return answer;  \n}\n\n// Change this value to test\nswitchOfStuff(1);\n"}

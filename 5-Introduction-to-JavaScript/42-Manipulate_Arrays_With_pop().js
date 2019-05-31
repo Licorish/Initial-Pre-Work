@@ -1,0 +1,2 @@
+// In this lession I learned how to manipulate arrays with pop(). .opo removes last items from array.
+{"index.js":"// Example\nvar ourArray = [1,2,3];\nvar removedFromOurArray = ourArray.pop(); \n// removedFromOurArray now equals 3, and ourArray now equals [1,2]\n\n// Setup\nvar myArray = [[\"John\", 23], [\"cat\", 2]];\n\n// Only change code below this line.\nvar removedFromMyArray = myArray.pop([1]);\n\n"}

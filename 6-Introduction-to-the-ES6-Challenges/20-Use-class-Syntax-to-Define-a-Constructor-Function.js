@@ -1,0 +1,2 @@
+/* In this lesson I learned how to use class syntax to define a constructor function.  */
+{"index.js":"function makeClass() {\n  \"use strict\";\n  /* Alter code below this line */\nclass Vegetable{\n  constructor(name){\n    this.name = name;\n  }\n}\n  /* Alter code above this line */\n  return Vegetable;\n}\nconst Vegetable = makeClass();\nconst carrot = new Vegetable('carrot');\nconsole.log(carrot.name); // => should be 'carrot'"}

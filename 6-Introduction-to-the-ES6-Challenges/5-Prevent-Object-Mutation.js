@@ -1,0 +1,2 @@
+/* In this lesson I learned how to prevent object mutation. Using Object.freeze(obj); yoiu can freeze an object and prevent its properties from being changed.  */
+{"index.js":"function freezeObj() {\n  \"use strict\";\n  const MATH_CONSTANTS = {\n    PI: 3.14\n  };\n  // change code below this line\nObject.freeze(MATH_CONSTANTS);\n  // change code above this line\n  try {\n    MATH_CONSTANTS.PI = 99;\n  } catch( ex ) {\n    console.log(ex);\n  }\n  return MATH_CONSTANTS.PI;\n}\nconst PI = freezeObj();"}

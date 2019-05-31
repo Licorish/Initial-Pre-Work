@@ -1,0 +1,2 @@
+// In this lession I learned how to  generate random whole numbers within a range using min and max.
+{"index.js":"// Example\nfunction ourRandomRange(ourMin, ourMax) {\n\n  return Math.floor(Math.random() * (ourMax - ourMin + 1)) + ourMin;\n}\n\nourRandomRange(1, 9);\n\n// Only change code below this line.\n\nfunction randomRange(myMin, myMax) {\n\n  return Math.floor(Math.random()*(myMax - myMin + 1))+myMin; // Change this line\n\n}\n\n// Change these values to test your function\nvar myRandom = randomRange(5, 15);"}

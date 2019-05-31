@@ -1,0 +1,2 @@
+// In this lesson I learned how to delete properties from object using. Delete myObj.property.
+{"index.js":"// Example\nvar ourDog = {\n  \"name\": \"Camper\",\n  \"legs\": 4,\n  \"tails\": 1,\n  \"friends\": [\"everything!\"],\n  \"bark\": \"bow-wow\"\n};\n\ndelete ourDog.bark;\n\n// Setup\nvar myDog = {\n  \"name\": \"Happy Coder\",\n  \"legs\": 4,\n  \"tails\": 1,\n  \"friends\": [\"freeCodeCamp Campers\"],\n  \"bark\": \"woof\"\n};\n\n// Only change code below this line.\ndelete myDog.tails\n"}

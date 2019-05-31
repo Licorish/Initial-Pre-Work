@@ -1,0 +1,6 @@
+/* In this lesson I learned how to style the html element by using a body element and nesting it in the style element.  */
+<style>
+body{
+  background-color: black;
+}
+</style>

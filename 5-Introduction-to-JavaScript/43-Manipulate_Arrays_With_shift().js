@@ -1,0 +1,2 @@
+// In this lession I learned how to manipulate arrays with shift(). .shift arrays remove first item from array and stores it elsewhere.
+{"index.js":"// Example\nvar ourArray = [\"Stimpson\", \"J\", [\"cat\"]];\nvar removedFromOurArray = ourArray.shift();\n// removedFromOurArray now equals \"Stimpson\" and ourArray now equals [\"J\", [\"cat\"]].\n\n// Setup\nvar myArray = [[\"John\", 23], [\"dog\", 3]];\n\n// Only change code below this line.\nvar removedFromMyArray = myArray.shift([0]);\n\n"}

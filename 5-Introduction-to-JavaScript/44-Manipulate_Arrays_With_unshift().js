@@ -1,0 +1,2 @@
+// In this lession I learned how to manipulate arrays with unshift(). .unshift() adds element at beginning of array.
+{"index.js":"// Example\nvar ourArray = [\"Stimpson\", \"J\", \"cat\"];\nourArray.shift(); // ourArray now equals [\"J\", \"cat\"]\nourArray.unshift(\"Happy\"); \n// ourArray now equals [\"Happy\", \"J\", \"cat\"]\n\n// Setup\nvar myArray = [[\"John\", 23], [\"dog\", 3]];\nmyArray.shift();\n\n// Only change code below this line.\nmyArray.unshift([\"Paul\",35]);\n"}

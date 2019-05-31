@@ -1,0 +1,2 @@
+// In this lesson I learned how to add new properties to a javascript object in the same way you modify them. . method or [] method.
+{"index.js":"// Example\nvar ourDog = {\n  \"name\": \"Camper\",\n  \"legs\": 4,\n  \"tails\": 1,\n  \"friends\": [\"everything!\"]\n};\n\nourDog.bark = \"bow-wow\";\n\n// Setup\nvar myDog = {\n  \"name\": \"Happy Coder\",\n  \"legs\": 4,\n  \"tails\": 1,\n  \"friends\": [\"freeCodeCamp Campers\"]\n};\n\n// Only change code below this line.\nmyDog.bark = \"Woof\";"}

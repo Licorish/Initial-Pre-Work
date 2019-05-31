@@ -1,0 +1,2 @@
+// In this lesson I learned how to access object properties with a bracket. myObj[propertyname];
+{"index.js":"// Setup\nvar testObj = {\n  \"an entree\": \"hamburger\",\n  \"my side\": \"veggies\",\n  \"the drink\": \"water\"\n};\n\n// Only change code below this line\n\nvar entreeValue = testObj[\"an entree\"];   // Change this line\nvar drinkValue = testObj[\"the drink\"];    // Change this line"}
